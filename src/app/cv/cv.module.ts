@@ -7,6 +7,7 @@ import { PresentacionComponent } from './components/presentacion/presentacion.co
 import { HomeComponent } from './pages/home/home.component';
 import { TrabajosComponent } from './components/trabajos/trabajos.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { FooterComponent } from '../shared/footer/footer.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
     PresentacionComponent,
     HomeComponent,
     TrabajosComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,

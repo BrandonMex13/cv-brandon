@@ -4,7 +4,7 @@ import { CvModule } from './cv/cv.module';
 
 const routes: Routes = [
   {
-    path: 'main',
+    path: '',
     loadChildren : () => import('./cv/cv.module').then( m => m.CvModule)
   }
 ];

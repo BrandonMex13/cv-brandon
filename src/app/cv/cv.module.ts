@@ -5,12 +5,16 @@ import { MaterialModule } from '../material/material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { PresentacionComponent } from './components/presentacion/presentacion.component';
 import { HomeComponent } from './pages/home/home.component';
+import { TrabajosComponent } from './components/trabajos/trabajos.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
 
 
 @NgModule({
   declarations: [
     PresentacionComponent,
-    HomeComponent
+    HomeComponent,
+    TrabajosComponent,
+    ProyectosComponent
   ],
   imports: [
     CommonModule,

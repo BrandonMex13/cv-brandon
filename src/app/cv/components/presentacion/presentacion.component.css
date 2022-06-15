@@ -17,3 +17,8 @@ span, h1{
 @keyframes blink {
     50% { border-color: transparent }
 }
+
+img{
+    height: 60px;
+    width: 60px;
+}

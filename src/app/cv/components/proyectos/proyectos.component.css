@@ -1,0 +1,21 @@
+.mat-card {
+    margin-top: 20px;
+}
+
+a:hover{
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.mat-icon {
+    vertical-align: middle;
+}
+
+mat-card{
+    height: 100%;
+}
+

@@ -6,11 +6,8 @@
 
             <mat-card-header>
         
-                <!-- <mat-card-title>{{ proyecto.nombreProyecto }}</mat-card-title> -->
-        
                 <mat-card-title>
                     <a href="{{ proyecto.routerLink }}" target="_blank">
-                        <!-- <mat-icon mat-list-icon>link</mat-icon> -->
                         <span>{{proyecto.nombreProyecto | titlecase}}</span>
                     </a>
                 </mat-card-title>
@@ -20,15 +17,9 @@
             </mat-card-header>
         
             <img mat-card-image src="../../../../assets/img/{{proyecto.imglink}}" alt="No se encuentra la imagen">
-            <!-- <img mat-card-image [src]="heroe" alt="No se encuentra la imagen"> -->
         
             <mat-card-content>
-                <!-- <h3>{{ proyecto.descripcion }}</h3> -->
                 <p>
-                    <!-- <strong>Fecha de inicio </strong> {{ proyecto.fechaInicio | date }}
-                    <br>
-                    <strong>Fecha de terminacion: </strong> {{ proyecto.fechaTerminacion | date }}
-                    <br> -->
                     <strong>Lenguajes:</strong> {{ proyecto.lenguaje }}
                 </p>
             </mat-card-content>
@@ -39,10 +30,6 @@
                         Ver proyecto...
                     </a>
                 </button>
-        
-                <!-- <button mat-button color="info" [routerLink]="['/heroes/editar', heroe]">
-                    Editar
-                </button> -->
             </mat-card-actions>
         
         </mat-card>

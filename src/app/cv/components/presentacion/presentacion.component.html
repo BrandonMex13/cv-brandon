@@ -2,12 +2,11 @@
     <mat-card-header>
         <img mat-card-avatar src="../../../../assets/img/programador.jpg" alt="programador">
         <mat-card-title>
-            <p>Brandon Alexis Montoya Inzunza</p>
+            <h1>Brandon Alexis Montoya Inzunza</h1>
         </mat-card-title>
         <mat-card-subtitle>Desarrollador web</mat-card-subtitle>
     </mat-card-header>
 
-    <!-- <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu"> -->
     <mat-card-content>
         <p>
             {{ descripcion }}
@@ -21,11 +20,15 @@
 
 <br>
 <hr>
-<app-trabajos></app-trabajos>
+<div class="row">
+    <app-trabajos></app-trabajos>
+</div>
 
 <br>
 <hr>
-<app-proyectos></app-proyectos>
+<div class="row">
+    <app-proyectos></app-proyectos>
+</div>
 
 <br>
 <br>
@@ -33,4 +36,7 @@
 <br>
 <hr>
 
-<app-footer></app-footer>
+<div class="row">
+    <app-footer></app-footer>
+</div>
+

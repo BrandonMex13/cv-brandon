@@ -39,6 +39,16 @@ export class ProyectosComponent implements OnInit {
                 routerLink       : "https://paisesapp-brandon.netlify.app/",
                 imglink          : "pais-app.png"
             },
+            {
+                idProyecto       : 3,
+                nombreProyecto   : "Pipes Angular",
+                descripcion      : "Conocimiento e implementacion de los pipes de angular",
+                fechaInicio      : this.date,
+                fechaTerminacion : this.date,
+                lenguaje         : ["Angular", " Typescript", " HTML", " CSS" ],
+                routerLink       : "https://pipes-angular-brandon.netlify.app/",
+                imglink          : "pipes-app.png"
+            },
         ];
     }
 

@@ -49,6 +49,16 @@ export class ProyectosComponent implements OnInit {
                 routerLink       : "https://pipes-angular-brandon.netlify.app/",
                 imglink          : "pipes-app.png"
             },
+            {
+                idProyecto       : 4,
+                nombreProyecto   : "Sistema de prestamos",
+                descripcion      : "Sistema de prestamos con tabla de amortizacion",
+                fechaInicio      : this.date,
+                fechaTerminacion : this.date,
+                lenguaje         : ["Javascript", " Boostrap", " PHP", " HTML", " CSS" ],
+                routerLink       : "https://github.com/BrandonMex13/sistemas-web-prestamos",
+                imglink          : "sistema-prestamos.png"
+            }
         ];
     }
 

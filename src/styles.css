@@ -54,3 +54,36 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     background: #bb0000;
     color: white;
   }
+
+  .my-animation {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: pulse; 
+    animation-duration: 2s; 
+  }
+
+  .my-animation-flip-imagen {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: flipInY ; 
+    animation-duration: 2s; 
+    /* border-radius: 100%; */
+  }
+
+.my-animation-Trabajos {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: flipInX; 
+    animation-duration: 2s; 
+}
+
+.my-animation-Proyectos {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: lightSpeedInLeft; 
+    animation-duration: 2s; 
+}

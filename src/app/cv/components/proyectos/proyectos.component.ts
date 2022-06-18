@@ -58,6 +58,16 @@ export class ProyectosComponent implements OnInit {
                 lenguaje         : ["Javascript", " Boostrap", " PHP", " HTML", " CSS" ],
                 routerLink       : "https://github.com/BrandonMex13/sistemas-web-prestamos",
                 imglink          : "sistema-prestamos.png"
+            },
+            {
+                idProyecto       : 5,
+                nombreProyecto   : "Bouncing DVD",
+                descripcion      : "Clasico logo de DVD rebotando en la pantalla",
+                fechaInicio      : this.date,
+                fechaTerminacion : this.date,
+                lenguaje         : ["HTML", " CSS" ],
+                routerLink       : "https://bouncing-dvd-brandon.netlify.app/",
+                imglink          : "bouncing-dvd-app.png"
             }
         ];
     }

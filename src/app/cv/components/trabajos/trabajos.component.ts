@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Proyecto } from '../../interfaces/proyecto.interface';
+import { Trabajo } from '../../interfaces/trabajos.interface';
 
 @Component({
   selector: 'app-trabajos',
@@ -8,36 +8,29 @@ import { Proyecto } from '../../interfaces/proyecto.interface';
 })
 export class TrabajosComponent implements OnInit {
 
-  proyectosPersonales : Proyecto[] = [];
+    trabajos : Trabajo[] = [];
 
-  date : Date = new Date();
+    constructor() { }
 
-  constructor() { }
+    ngOnInit(): void {
 
-  ngOnInit(): void {
+        this.trabajos = [
+            {
+                idTrabajo : 1,
+                titulo: "Desarrollador web",
+                nombreTrabajo: "Caprepa",
+                descripcion: "Desarrollador web formando parte del equipo administrativo llevando relación con las distintas áreas para la implementación y despliegue de distintos sistemas para el control de la empresa así como de sus distintas marcas.",
+                imagen: "Caprepa.png"
+            },
+            {
+                idTrabajo : 2,
+                titulo: "Arquitecto de software",
+                nombreTrabajo: "Coppel",
+                descripcion: "Liderando a un equipo de desarrollo se construye una solución siguiendo estándares y patrones de diseños según lo requiera el proyecto.",
+                imagen: "Coppel.jpg"
+            }
+        ];
 
-      this.proyectosPersonales = [
-          {
-              idProyecto       : 1,
-              nombreProyecto   : "Gifs App",
-              descripcion      : "Consulta de catalogo de gifs con el uso de una API",
-              fechaInicio      : this.date,
-              fechaTerminacion : this.date,
-              lenguaje         : ["Angular", " Typescript", " HTML", " CSS" ],
-              routerLink       : "https://gifsapp-brandon.netlify.app/",
-              imglink          : "giff-app.png"
-          },
-          {
-              idProyecto       : 2,
-              nombreProyecto   : "Paises",
-              descripcion      : "Consulta de paises con el uso de una API",
-              fechaInicio      : this.date,
-              fechaTerminacion : this.date,
-              lenguaje         : ["Angular", " Typescript", " HTML", " CSS" ],
-              routerLink       : "https://paisesapp-brandon.netlify.app/",
-              imglink          : "pais-app.png"
-          },
-      ];
-  }
+    }
 
 }

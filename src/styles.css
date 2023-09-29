@@ -83,15 +83,19 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .my-animation-Trabajos {
     display: inline-block;
     margin: 0 0.5rem;
+}
 
-    animation: flipInX; 
-    animation-duration: 2s; 
+.my-animation-Trabajos:hover {
+  animation: pulse; 
+  animation-duration: 1s; 
 }
 
 .my-animation-Proyectos {
     display: inline-block;
     margin: 0 0.5rem;
+}
 
-    animation: lightSpeedInLeft; 
-    animation-duration: 1s; 
+.my-animation-Proyectos:hover {
+  animation: pulse; 
+  animation-duration: 1s; 
 }

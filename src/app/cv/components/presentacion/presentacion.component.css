@@ -1,14 +1,12 @@
 span, h1, .scrolltext{
     display: block;
     font-family: monospace;
-    white-space: nowrap;
     border-right: 4px solid;
-    width: 30ch;
+    width: 15.5ch;
 
     animation: typing 2s steps(30),
     blink .5s infinite step-end alternate;
     overflow: hidden;
-    text-align: justify;
 }
 
 @keyframes typing {
@@ -26,4 +24,27 @@ img{
 
 p{
     text-align: justify;
+}
+
+.descripcion{
+    width: 100%;
+}
+
+@media (min-width: 768px){
+    .descripcion{
+        width: 75%;
+    }
+
+    span, h1, .scrolltext{
+        display: block; 
+        font-family: monospace;
+        white-space: nowrap;
+        border-right: 4px solid;
+        width: 30.5ch;
+    
+        animation: typing 2s steps(30),
+        blink .5s infinite step-end alternate;
+        overflow: hidden;
+        text-align: justify;
+    }
 }

@@ -18,14 +18,14 @@ export class ProyectosComponent implements OnInit {
 
         this.proyectosPersonales = [
             {
-                idProyecto       : 6,
-                nombreProyecto   : "Web Freelancer - Presentacion",
-                descripcion      : "Pequeña web de presentación como Freelancer",
+                idProyecto       : 8,
+                nombreProyecto   : "Pokedex",
+                descripcion      : "Registros de Pokemons",
                 fechaInicio      : this.date,
                 fechaTerminacion : this.date,
-                lenguaje         : ["HTML", " CSS", " javascript" ],
-                routerLink       : "https://web-freelancer-brandon.netlify.app/",
-                imglink          : "web-freelancer.png"
+                lenguaje         : ["Angular", " PrimeNG", " PokeApi" ],
+                routerLink       : "https://pokedex-brandon.netlify.app/pokemones/listado",
+                imglink          : "pokedex.png"
             },
             {
                 idProyecto       : 6,
@@ -36,6 +36,16 @@ export class ProyectosComponent implements OnInit {
                 lenguaje         : ["HTML", " CSS", " javascript" ],
                 routerLink       : "https://web-store-brandon.netlify.app/",
                 imglink          : "frontend-store.png"
+            },
+            {
+                idProyecto       : 7,
+                nombreProyecto   : "Web Freelancer - Presentacion",
+                descripcion      : "Pequeña web de presentación como Freelancer",
+                fechaInicio      : this.date,
+                fechaTerminacion : this.date,
+                lenguaje         : ["HTML", " CSS", " javascript" ],
+                routerLink       : "https://web-freelancer-brandon.netlify.app/",
+                imglink          : "web-freelancer.png"
             },
             {
                 idProyecto       : 1,
